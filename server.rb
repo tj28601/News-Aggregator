@@ -35,5 +35,5 @@ require 'sinatra'
 	    csv << individual_article
 
 	  end
-	  redirect '/articles/new'
+	  redirect '/articles'
 	end
